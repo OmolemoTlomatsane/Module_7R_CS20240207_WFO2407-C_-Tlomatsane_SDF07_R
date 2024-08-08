@@ -3,13 +3,167 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DevJane Portfolio Website</title>
+        <title>Omolemo Portfolio Website</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
-
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="style.css">
 
     </head>
     <body>
+        <header>
+            <div class="logo">
+                <p><img src="images/OT.png" alt="logo"></p> 
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Omolemo Tlomatsane</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">software dev</p>
+            <img src="images/omolemo.jpg" alt="a picture of Omolemo Tlomatsane" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Design + Development</h3>
+                    <p>I focus on creating visually stunning and user-friendly websites. I specialize in crafting responsive designs that ensure a seamless experience across all devices, from desktops to smartphones. My approach combines modern aesthetics with intuitive navigation, ensuring that each site is not only beautiful but also easy to use. In development, I bring these designs to life using clean, efficient code, prioritizing performance and functionality. Whether it's building a website from scratch or enhancing an existing one, I aim to create digital experiences that are both visually engaging and highly functional. My goal is to deliver websites that not only look great but also meet the specific needs of users and clients alike.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>E-Commerce</h3>
+                    <p>I excel at designing and developing online stores that are both visually appealing and highly functional. My design process focuses on creating user-friendly interfaces that guide customers effortlessly through the shopping experience, from browsing products to completing a purchase. I ensure that each eCommerce site is fully responsive, providing a seamless experience on any device. On the development side, I implement secure, scalable solutions that support smooth transactions and efficient management of products, orders, and customer data. By combining modern design aesthetics with robust development practices, I deliver eCommerce platforms that not only attract and retain customers but also drive sales and business growth.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Game Developer</h3>
+                    <p>I specialize in creating custom websites that are both visually appealing and easy to manage. I design responsive, user-friendly layouts and build them with clean, efficient code, ensuring your site runs smoothly. From theme customization to plugin integration, I tailor each WordPress site to meet specific needs, delivering a professional online presence that’s optimized for performance and user experience.</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Designer & developer based in Kengsington, Johannesburg</p>
+           
+           <div class="about-me__body">
+               <p>I am Omolemo Tlomatsane, a passionate developer and designer based in Kensington, Johannesburg. With a diverse skill set in web design, eCommerce development, and WordPress customization, I bring creativity and technical expertise to every project.</p>
+               <p>My goal is to deliver visually stunning and highly functional digital solutions that meet the unique needs of my clients. Whether crafting responsive websites, developing engaging games, or building robust online stores, I am dedicated to creating exceptional user experiences.</p>
+           </div>
+           
+           
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-01.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 02 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-02.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 03 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-03.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 04 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-04.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 05 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-05.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 06 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-06.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 07 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-07.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 08 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-08.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 09 -->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-09.jpg" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- Portfolio item 0 0-->
+                <a href="#" class="portfolio__item">
+                    <img src="images/portfolio-10.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:tycotecsa@gmail.com" class="footer__link">tycotecsa@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://codepen.io/OmolemoTlomatsane", target="_blank">
+                        <i class="fab fa-codepen"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.instagram.com/omolemotlomatsane/?hl=en", target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://x.com/Boutlife1999", target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/OmolemoTlomatsane", target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="main.js"></script>
         
     </body>
 </html>
